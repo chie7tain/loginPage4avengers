@@ -1,0 +1,256 @@
+/* general styles */
+*{
+    padding:0;
+    margin:0;
+    box-sizing: border-box;
+}
+body{
+    color:rgba(0, 0, 0, 0.74);
+        font:1em sans-serif;
+}
+a{
+    text-decoration: none;
+}
+/* end of general styles */
+/* for responsiveness */
+
+/* Mobile Styles */
+@media only screen and (max-width: 400px){
+    body{
+        background-color:#33B7CE;
+        background-size: 100%;
+    }
+    .login-form-container{
+        display:flex;
+        flex-wrap: wrap;
+        flex-direction: column;
+        justify-content: space-around;
+        align-items: center;
+        width:380px;
+        height: 500px;
+        background: #fff;
+        margin:0 auto;
+        margin-top: 1em;
+        margin-bottom: 1em;
+        padding:1em;
+        border-radius: 1em;
+    }
+    .inputField-container{
+        width:100%;
+    }
+    /* form labels */
+    label{
+        display:block;
+        width:100%;
+        text-align: left;
+        font:1em sans-serif;
+        color:#999;
+    }
+    /* for uniforn form fields */
+    .input-field{
+    padding: 1em;
+    /* border: 1px solid #999; */
+    border:none;
+    margin:0 auto;
+    width:80%;
+    font:1em sans-serif;
+    }
+    
+    .input-field:hover{
+        border-left:1px solid #000;
+        border-start-end-radius: 20%;
+        background:whitesmoke;
+        
+    }
+    .input-field:focus{
+        border-color:#5E9EC2;
+    }
+    fieldset{
+        border:none;
+    }
+    .button{
+        width:100px;
+        border:1px solid black;
+    }
+    .btn{
+        padding:1em;
+        border:none;
+        margin:0 auto;
+        width:300px;
+        color:#fff;
+        font:1em sans-serif;
+        border-radius: 1em;
+        background: #5E9EC2;
+        cursor:pointer;
+    }
+    .btn:hover{
+        background: #33B7CE;
+    }
+    .random-styles{
+        color:#999;
+        font:1em sans-serif;
+    }
+    .material-icons.md-dark { color: rgba(0, 0, 0, 0.54); }
+}
+/* end of mobile styles */
+
+/* Table styles */
+@media only screen and (min-width: 401px) and (max-width:960px){
+    body{
+        /* background-color:#25CFC7; */
+        background-image: linear-gradient(to right, #1098f0, #508dff, #8d7aff, #c85af8, #fb00da); 
+    }
+    .login-form-container{
+        display:flex;
+        flex-wrap: wrap;
+        flex-direction: column;
+        justify-content: space-around;
+        align-items: center;
+        width:450px;
+        height: 550px;
+        background: #fff;
+        margin:0 auto;
+        margin-top: 1em;
+        padding:1em;
+        border-radius: 1em;
+    }
+    .inputField-container{
+        width:100%;
+    }
+    /* form labels */
+    label{
+        display:block;
+        width:100%;
+        text-align: left;
+        font:1em sans-serif;
+        color:#999;
+    }
+    /* for uniforn form fields */
+    .input-field{
+    padding: 1em;
+    /* border: 1px solid #999; */
+    border:none;
+    margin:0 auto;
+    width:80%;
+    font:1em sans-serif;
+    }
+    
+    .input-field:hover{
+        border-left:1px solid #000;
+        border-start-end-radius: 20%;
+        background:whitesmoke;
+        
+    }
+    .input-field:focus{
+        border-color:#5E9EC2;
+    }
+    fieldset{
+        border:none;
+    }
+    .button{
+        width:100px;
+        border:1px solid black;
+    }
+    .btn{
+        padding:1em;
+        border:none;
+        margin:0 auto;
+        width:400px;
+        color:#fff;
+        font:1em sans-serif;
+        border-radius: 1em;
+        background: #5E9EC2;
+        cursor:pointer;
+    }
+    .btn:hover{
+        background: #33B7CE;
+    }
+    .random-styles{
+        color:#999;
+        font:1em sans-serif;
+    }
+    .material-icons.md-dark { color: rgba(0, 0, 0, 0.54); }
+}
+/* end of tablet styles */
+
+/* Desktop styles */
+@media only screen and (min-width:961px){
+    body{
+        background-image:url(assets/bg-01.jpg);
+        background-size: 100%;
+        font:1em sans-serif;
+        /* color:#999; */
+    /* background-image: linear-gradient(to right, #1098f0, #508dff, #8d7aff, #c85af8, #fb00da);    */
+    }
+    .login-form-container{
+        display:flex;
+        flex-wrap: wrap;
+        flex-direction: column;
+        justify-content: space-around;
+        align-items: center;
+        width:450px;
+        height: 550px;
+        background: #fff;
+        margin:0 auto;
+        margin-top: 1em;
+        padding:1em;
+        border-radius: 1em;
+    }
+    .inputField-container{
+        width:100%;
+    }
+    /* form labels */
+    label{
+        display:block;
+        width:100%;
+        text-align: left;
+        font:1em sans-serif;
+        color:#999;
+    }
+    /* for uniforn form fields */
+    .input-field{
+    padding: 1em;
+    /* border: 1px solid #999; */
+    border:none;
+    margin:0 auto;
+    width:80%;
+    font:1em sans-serif;
+    }
+    
+    .input-field:hover{
+        border-left:1px solid #000;
+        border-start-end-radius: 20%;
+        background:whitesmoke;
+        
+    }
+    .input-field:focus{
+        border-color:#5E9EC2;
+    }
+    fieldset{
+        border:none;
+    }
+    .button{
+        width:100px;
+        border:1px solid black;
+    }
+    .btn{
+        padding:1em;
+        border:none;
+        margin:0 auto;
+        width:400px;
+        color:#fff;
+        font:1em sans-serif;
+        border-radius: 1em;
+        background: #5E9EC2;
+        cursor:pointer;
+    }
+    .btn:hover{
+        background: #33B7CE;
+    }
+    .random-styles{
+        color:#999;
+        font:1em sans-serif;
+    }
+    .material-icons.md-dark { color: rgba(0, 0, 0, 0.54); }
+}
+/*end of desktop styles */
