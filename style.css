@@ -11,6 +11,16 @@ body{
 a{
     text-decoration: none;
 }
+.container-heading{
+    display:flex;
+    justify-content: center;
+}
+.looks{
+    margin:1%;
+    padding:1px;
+    border:1px solid whitesmoke;
+    /* margin:0 auto; */
+}
 /* for responsiveness */
 
 /* Mobile Styles */
